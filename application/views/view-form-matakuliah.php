@@ -5,12 +5,12 @@
 </head>
 
 <body>
-     <center>
-        <form action="<?= base_url('matakuliah/cetak'); ?>" method="post">
+    <center>
+        <form action="<?= base_url('matakuliah/cetak'); ?>" method="POST">
             <table>
                 <tr>
                     <th colspan="3">
-                        Form Input Data Mata Kuliah
+                        Form Input Matakuliah
                     </th>
                 </tr>
                 <tr>
@@ -27,31 +27,31 @@
                 </tr>
                 <tr>
                     <th>Nama MTK</th>
-                    <td>:</td>
+                    <th>:</th>
                     <td>
                         <input type="text" name="nama" id="nama">
                     </td>
                 </tr>
                 <tr>
                     <th>SKS</th>
-                    <td>:</td>
+                    <th>:</th>
                     <td>
-                         <select name="sks" id="sks">
+                        <select name="sks" id="sks">
                             <option value="">Pilih SKS</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
                             <option value="4">4</option>
                         </select>
-                    </td> 
+                    </td>
                 </tr>
                 <tr>
                     <td colspan="3" align="center">
                         <input type="submit" value="Submit">
                     </td>
                 </tr>
-             </table>
-          </form>
-        </center>
+            </table>
+        </form>
+    </center>
 </body>
 
 </html>
